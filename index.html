@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>มูตังค์</title>
+<link rel="icon" href="icon-512.png">
+<style>
+:root { --bg:#EEF3F1; --surface:#FFFFFF; --fg:#14211D; --muted:#5B6D67; --line:#CFDAD6; --accent:#0E5C4C; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --surface:#15201D; --fg:#E4EEEA; --muted:#93A8A1; --line:#2A3A35; --accent:#5CC3A8; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 "IBM Plex Sans Thai","Sarabun",system-ui,sans-serif; }
+main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+header { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+header img { width:48px; height:48px; border-radius:12px; }
+nav a { color:var(--accent); margin-right:16px; font-size:14px; }
+article { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:8px 20px 20px; margin-top:16px; }
+h1 { font-size:24px; line-height:1.3; margin:20px 0 4px; }
+h2 { font-size:18px; margin:24px 0 4px; color:var(--accent); }
+p, li { color:var(--fg); } ul { padding-left:20px; }
+h1 + p { color:var(--muted); font-size:14px; }
+hr { border:0; border-top:1px solid var(--line); margin:32px 0 8px; }
+a { color:var(--accent); }
+</style></head>
+<body><main>
+<header><img src="icon-512.png" alt=""><strong>มูตังค์</strong></header>
+<nav><a href="#">ภาษาไทย</a><a href="#en">English</a></nav>
+<article>
+<h1>นโยบายความเป็นส่วนตัว — มูตังค์</h1>
+<p>มีผลตั้งแต่ 14 ตุลาคม 2569 · ผู้พัฒนา: Titipong · ติดต่อ: <a href="mailto:t.pakinsri@gmail.com">t.pakinsri@gmail.com</a></p>
+<p>มูตังค์เป็นแอปจดรายจ่ายและวางงบรายวันที่ทำงานในเครื่องของคุณทั้งหมด</p>
+<h2>ข้อมูลที่แอปเก็บ</h2>
+<ul>
+<li>รายการรับจ่าย หมวด งบ บิล หนี้ ซองแดงออมเงิน และการตั้งค่า ที่คุณบันทึกเอง</li>
+<li>ข้อมูลทั้งหมดเก็บในพื้นที่ของแอปบนเครื่องนี้เท่านั้น</li>
+</ul>
+<h2>ข้อมูลที่แอปไม่เก็บและไม่ส่ง</h2>
+<ul>
+<li>แอปไม่ขอสิทธิ์อินเทอร์เน็ต จึงเชื่อมต่อเครือข่ายเองไม่ได้</li>
+<li>ไม่มีบัญชีผู้ใช้ ไม่มีเซิร์ฟเวอร์ ไม่มีโฆษณา ไม่มีเครื่องมือติดตามหรือเก็บสถิติการใช้งาน</li>
+<li>ผู้พัฒนาไม่ได้รับและไม่สามารถเข้าถึงข้อมูลของคุณ</li>
+</ul>
+<h2>สิทธิ์ที่แอปขอ</h2>
+<ul>
+<li><strong>การแจ้งเตือน</strong>: เตือนบิลใกล้ครบกำหนดและเมื่อใช้เกินงบ ปิดได้ในแอปหรือในการตั้งค่าเครื่อง</li>
+<li><strong>รูปภาพหรือโฟลเดอร์ที่คุณเลือก</strong>: อ่านสลิปโอนเงินเพื่อสร้างรายการ การอ่านตัวอักษรทำในเครื่องด้วยโมเดลที่อยู่ในแอป แอปเข้าถึงได้เฉพาะไฟล์หรือโฟลเดอร์ที่คุณเลือกผ่านหน้าต่างของระบบ</li>
+<li><strong>สิทธิ์ระบบสำหรับงานเบื้องหลัง</strong> (ทำงานต่อหลังเปิดเครื่อง, ปลุกเครื่องชั่วครู่, ดูสถานะเครือข่าย): มากับไลบรารีตั้งเวลาของ Android (WorkManager) เพื่อส่งการแจ้งเตือนตรงเวลา ไม่ใช่การเชื่อมต่ออินเทอร์เน็ต</li>
+</ul>
+<h2>ข้อมูลออกจากเครื่องเมื่อใด</h2>
+<p>เฉพาะเมื่อคุณสั่งเองเท่านั้น:</p>
+<ul>
+<li><strong>สำรองข้อมูล / ส่งออก CSV</strong>: แอปเขียนไฟล์ลงตำแหน่งที่คุณเลือก หากเลือกบริการคลาวด์ ข้อมูลจะอยู่ภายใต้นโยบายของบริการนั้น</li>
+<li><strong>แชร์</strong>: เช่น ปุ่มแชร์เมื่อออมถึงยอด แอปส่งข้อความไปยังแอปที่คุณเลือก</li>
+</ul>
+<h2>การลบข้อมูล</h2>
+<p>ลบรายการได้ในแอป หรือลบข้อมูลทั้งหมดโดยล้างข้อมูลแอปหรือถอนการติดตั้ง ไฟล์สำรองที่คุณบันทึกไว้เองต้องลบเอง</p>
+<h2>โหมดมู</h2>
+<p>คำทำนาย เลขมงคล และสีประจำวันมีไว้เพื่อความบันเทิง ไม่ใช่คำแนะนำทางการเงิน และไม่เกี่ยวข้องกับการพนัน</p>
+<h2>เด็ก</h2>
+<p>แอปไม่ได้ออกแบบมาสำหรับเด็กอายุต่ำกว่า 13 ปี และไม่เก็บข้อมูลส่วนบุคคลจากผู้ใช้รายใด</p>
+<h2>การเปลี่ยนแปลงนโยบาย</h2>
+<p>หากมีการเปลี่ยนแปลง จะประกาศฉบับใหม่ที่หน้านี้พร้อมวันที่มีผล</p>
+<hr id="en">
+<h1>Privacy Policy — Mutang (มูตังค์)</h1>
+<p>Effective 14 October 2026 · Developer: Titipong · Contact: <a href="mailto:t.pakinsri@gmail.com">t.pakinsri@gmail.com</a></p>
+<p>Mutang is an expense tracker and daily budget app that works entirely on your device.</p>
+<p><strong>What the app stores.</strong> Transactions, categories, budgets, bills, debts, savings goals and settings that you enter. All of it stays in the app&#x27;s private storage on this device.</p>
+<p><strong>What the app does not collect or send.</strong> The app does not request the Internet permission and cannot connect to any network. There are no accounts, servers, ads, trackers or analytics. The developer never receives or has access to your data.</p>
+<p><strong>Permissions.</strong></p>
+<ul>
+<li><em>Notifications</em>: reminders for upcoming bills and over-budget alerts. You can turn them off.</li>
+<li><em>Images or folders you pick</em>: to read transfer slips. Text recognition runs on the device with a model bundled in the app. The app only accesses files or folders you choose through the system picker.</li>
+<li><em>System permissions for background work</em> (run after reboot, brief wake lock, network state): added by Android&#x27;s scheduling library (WorkManager) so reminders arrive on time. None of them allow Internet access.</li>
+</ul>
+<p><strong>When data leaves your device.</strong> Only when you do it yourself: a backup or CSV export is written to the location you choose (a cloud service you pick has its own policy), and the share button sends text to the app you choose.</p>
+<p><strong>Deleting data.</strong> Delete entries in the app, or remove everything by clearing the app&#x27;s data or uninstalling it. Backup files you saved yourself must be deleted by you.</p>
+<p><strong>Mu mode.</strong> Fortunes, lucky numbers and day colors are for entertainment only. They are not financial advice and are not related to gambling.</p>
+<p><strong>Children.</strong> The app is not directed at children under 13 and collects no personal data from anyone.</p>
+<p><strong>Changes.</strong> Any update will be posted on this page with its effective date.</p>
+</article>
+</main></body></html>
